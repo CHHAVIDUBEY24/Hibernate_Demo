@@ -26,6 +26,7 @@ public class Main {
 //        Transaction transcation=session.beginTransaction();
         Allen a1=session.find(Allen.class , 101);
         System.out.println(a1);
+       System.out.println("Hibernate Demo");
 //        session.persist(a1);
 //        transcation.commit();
     }
